@@ -1,0 +1,13 @@
+.btn {
+  &-callout {
+    @extend %btn;
+    font-size: 1.1em;
+    background-color: $color-secondary;
+  }
+  &-info {
+    @extend %btn;
+    font-size: 0.85em;
+    background-color: $color-primary;  
+    margin-top: auto;
+  }
+}

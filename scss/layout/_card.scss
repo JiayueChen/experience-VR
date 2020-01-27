@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em 1em;
+  border: 1px solid $color-shade;
+  border-radius: 0.25em;
+  h1 {
+  margin: 0.35em 0 0;
+  line-height: 1.25;
+  }
+  .icon, h1 {
+    color: $color-primary;
+  }
+}
+
+/* MEDIA QUERIES ---------------------------------- */
+
+
+@media (min-width: 576px) {
+  .card {
+    flex: 1;
+  }
+}
